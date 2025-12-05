@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Compresor de Imagen WhatsApp</title>
+</head>
+<body>
+    <input type="file" id="image-upload" accept="image/*">
+    <button id="compress-button" disabled>Comprimir y Previsualizar</button>
+    
+    <h3>Original:</h3>
+    <img id="original-preview" style="max-width: 300px; border: 1px solid #ccc;">
+
+    <h3>Comprimida:</h3>
+    <img id="compressed-preview" style="max-width: 300px; border: 1px solid #ccc;">
+    <p>Tamaño Comprimido: <span id="compressed-size"></span></p>
+
+    <script src="app.js"></script>
+</body>
+</html>
